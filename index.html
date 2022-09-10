@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.84.0">
+    <title>Sample clinic</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/heroes/">
+
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="fontawesome-free-6.2.0-web/css/fontawesome.css" rel="stylesheet">
+    <link href="fontawesome-free-6.2.0-web/css/solid.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    <link href="css/index.css" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-white">
+      <div class="container container-fluid">
+        <a class="navbar-brand" href="#"><i class="fa-solid fa-hospital"></i>Sample clinic</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+          </ul>
+          <form class="d-flex">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#About">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Services
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Appointments</a></li>
+                  <li><a class="dropdown-item" href="#">Billing and Insurance</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Clinical trials</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Location" tabindex="-1" aria-disabled="true">Location</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Footer" tabindex="-1" aria-disabled="true">Contact us</a>
+              </li>
+            </ul>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Main contents -->
+    <div class="px-4 pt-5 text-center">
+      <h1><i class="mt-5 fa-solid fa-hospital"></i></h1>
+      <h1 class="display-4 fw-bold">Welcome</h1>
+      <div class="col-lg-6 mx-auto">
+        <p class="lead mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+        <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3">Login</button>
+        <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3">Request an appointment</button>
+        <button type="button" class="btn btn-outline-secondary btn-lg px-4">Search diseases & conditions</button>
+      </div>
+      <div class="overflow-hidden" style="max-height: 30vh;">
+        <div class="container px-5">
+          <img src="img/Cover_1.jpeg" class="img-fluid border rounded-3" alt="Example image" width="700" height="500" loading="lazy">
+        </div>
+      </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <!-- About us -->
+    <div id="About" class="bg-success text-light row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
+      <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+        <h1 class="display-4 fw-bold lh-1">About</h1>
+        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+      <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden">
+          <img class="rounded-lg-3" src="img/About.jpeg" alt="" width="720">
+      </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <!-- Services -->
+    <div id="Services" class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3">
+      <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+        <h1 class="display-4 fw-bold lh-1">Services</h1>
+        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 pb-5">
+        <div class="col d-flex align-items-start">
+          <i class="fa-solid fa-stethoscope"></i>
+          <div>
+            <h4 class="fw-bold mb-0">Featured title</h4>
+            <p>Paragraph of text beneath the heading to explain the heading.</p>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <i class="fa-solid fa-stethoscope"></i>
+          <div>
+            <h4 class="fw-bold mb-0">Featured title</h4>
+            <p>Paragraph of text beneath the heading to explain the heading.</p>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <i class="fa-solid fa-stethoscope"></i>
+          <div>
+            <h4 class="fw-bold mb-0">Featured title</h4>
+            <p>Paragraph of text beneath the heading to explain the heading.</p>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <i class="fa-solid fa-stethoscope"></i>
+          <div>
+            <h4 class="fw-bold mb-0">Featured title</h4>
+            <p>Paragraph of text beneath the heading to explain the heading.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <!-- Location -->
+    <div id="Location" class="text-center align-items-center">
+      <div class="py-5">
+        <h1 class="display-5 fw-bold text-dark mb-5">Location</h1>
+        <div class="row text-dark">
+          <div class="col-lg-4">
+            <center>
+              <div class="location-img">
+                <img src="img/Location.jpeg" alt="Location 1">
+              </div>
+            </center>
+            <h2>Location 1</h2>
+            <p>Location details 1.</p>
+            <p><a class="btn btn-primary" href="#">View details &raquo;</a></p>
+          </div>
+          <div class="col-lg-4">
+            <center>
+              <div class="location-img">
+                <img src="img/Location.jpeg" alt="Location 1">
+              </div>
+            </center>
+            <h2>Location 2</h2>
+            <p>Location details 2.</p>
+            <p><a class="btn btn-primary" href="#">View details &raquo;</a></p>
+          </div>
+          <div class="col-lg-4">
+            <center>
+              <div class="location-img">
+                <img src="img/Location.jpeg" alt="Location 1">
+              </div>
+            </center>
+            <h2>Location 3</h2>
+            <p>Location details 3.</p>
+            <p><a class="btn btn-primary" href="#">View details &raquo;</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <section>
+      <!-- Footer -->
+      <footer id="Footer" class="bg-white text-dark">
+        <div class="container p-4">
+          <div class="row">
+            <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+              <h5 class="text-uppercase">Footer Content</h5>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
+                molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae
+                aliquam voluptatem veniam, est atque cumque eum delectus sint!
+              </p>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase">Links</h5>
+
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="#!" class="text-dark">Link 1</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-dark">Link 2</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-dark">Link 3</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-dark">Link 4</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase mb-0">Links</h5>
+
+              <ul class="list-unstyled">
+                <li>
+                  <a href="#!" class="text-dark">Link 1</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-dark">Link 2</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-dark">Link 3</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-dark">Link 4</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="text-center p-3 bg-success">
+          <a class="text-white" href="#">Sample clinic</a>
+        </div>
+      </footer>
+      <!-- Footer -->
+    </section>
+    <script src="bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+  </body>
+</html>
